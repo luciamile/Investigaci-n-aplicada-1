@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="css/ruleta.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" alt="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="frutas.html">Frutas</a></li>
+                    <li><a href="verduras.html">Verduras</a></li>
+                    <li><a href="hortalizas.html">Hortalizas</a></li>
+                    <li><a href="ruleta.html">Descuento</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Ruleta de Descuentos</h1>
+                <p>
+                    Tus productos favoritos con más ahorro este fin de semana🤩🛒
+                        -
+                    Participa en esta divertida ruleta de Descuentos y veamos de cuanto sera el descuento que te llevaras para tu compra. Como super nos reservamos el derecho de limitar la cantidad de unidades a vender por cliente. Mientras duren existencias. Restricciones aplican.
+                </p>
+            </div>
+
+        </div>
+    </header>
+    
+<section>
+    <div class="container">
+        <div class="wheel-container">
+            <div class="wheel">
+                <div class="segment" data-discount="10%">10%</div>
+                <div class="segment" data-discount="5%">5%</div>
+                <div class="segment" data-discount="15%">15%</div>
+                <div class="segment" data-discount="20%">20%</div>
+                <div class="segment" data-discount="25%">25%</div>
+                <div class="segment" data-discount="30%">30%</div>
+                <div class="segment" data-discount="0%">0%</div>
+            </div>
+            <div class="pointer"></div>
+        </div>
+        <button id="spinButton">Girar</button>
+        <button id="resetButton">Restablecer</button>
+        <p id="message"></p>
+    </div>
+    <script src="js/script.js"></script>
+</section>
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>Contactanos</h3>
+                <ul>
+                    <li><a href="#">Call Center 2267-6767</a></li>
+                    <li><a href="#">Corre: Servicioalcliente@mercadito.com.sv</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Uso y condiciones</a></li>
+                    <li><a href="#">Politica de priacidad</a></li>
+                    <li><a href="#">Derechos</a></li>
+                    <li><a href="#">Garantia de los productos</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Informacion</h3>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Como comprobar</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>¡Descarga la App!</h3>
+                <ul>
+                    <li><a href="#">Play Store</a></li>
+                    <li><a href="#">App Store</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
